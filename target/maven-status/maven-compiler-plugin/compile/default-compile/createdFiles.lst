@@ -1,0 +1,8 @@
+com\yp\demo\domain\Message.class
+com\yp\demo\repository\MessageDao.class
+com\yp\demo\repository\AbstractDao.class
+com\yp\demo\viewmodel\ChatInfo.class
+com\yp\demo\chatroomapp\ChatroomappApplication.class
+com\yp\demo\configuration\WebSocketConfig.class
+com\yp\demo\controller\GroupChat.class
+com\yp\demo\service\MessageService.class
