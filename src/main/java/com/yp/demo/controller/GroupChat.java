@@ -1,7 +1,6 @@
 package com.yp.demo.controller;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 import java.sql.Timestamp;
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -18,6 +17,8 @@ import javax.websocket.OnMessage;
 import javax.websocket.OnOpen;
 import javax.websocket.Session;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 //import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 //import org.springframework.web.bind.annotation.PathVariable;
@@ -36,7 +37,7 @@ public class GroupChat {
     private static final Map<String, Set<Session>> rooms = new ConcurrentHashMap<>();
     //key:sessionId, value: user
     private static final Map<String, String> users = new ConcurrentHashMap<>();
-    //private static final Logger logger = Logger.getLogger(GroupChant.class);
+    private static Logger logger = LogManager.getLogger();
 //    @Autowired
 //    private ChatService chatService;
     /*
@@ -87,7 +88,7 @@ public class GroupChat {
         chatInfo.setChatContent(users.get(session.getId()) + "left the chat room");
         users.remove(session.getId());
         broadcast(roomId, new Gson().toJson(chatInfo));
-        //logger.info("<<<<<<<<<<<<<a client has disconnected!>>>>>>>>>>>>>>");
+        logger.info("<<<<<<<<<<<<<a client has disconnected!>>>>>>>>>>>>>>");
     }
 
     /**
@@ -113,7 +114,7 @@ public class GroupChat {
 //    	chatInfo.setDate(new Timestamp(System.currentTimeMillis()));
 //    	chatInfo.setUsername(name);
 //    	chatInfo.setChatContent(fileService.upload(file, roomName));
-//        broadcast(roomName, new Gson().toJson(chatInfo));
+//      broadcast(roomName, new Gson().toJson(chatInfo));
 //    }
 
     private void broadcast(String roomId, String msg) {

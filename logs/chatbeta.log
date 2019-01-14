@@ -1,0 +1,19 @@
+2019-01-13 20:39:23,856 [ERROR] (Log4J2PropertiesConf:12) - This is an error message
+2019-01-13 20:39:23,864 [FATAL] (Log4J2PropertiesConf:13) - This is a fatal message
+2019-01-13 20:55:36,670 [DEBUG] (Log4J2PropertiesConf:9) - This is a debug message
+2019-01-13 20:55:36,670 [DEBUG] (Log4J2PropertiesConf:9) - This is a debug message
+2019-01-13 20:55:36,681 [ INFO] (Log4J2PropertiesConf:10) - This is an info message
+2019-01-13 20:55:36,681 [ INFO] (Log4J2PropertiesConf:10) - This is an info message
+2019-01-13 20:55:36,681 [ WARN] (Log4J2PropertiesConf:11) - This is a warn message
+2019-01-13 20:55:36,681 [ WARN] (Log4J2PropertiesConf:11) - This is a warn message
+2019-01-13 20:55:36,682 [ERROR] (Log4J2PropertiesConf:12) - This is an error message
+2019-01-13 20:55:36,682 [ERROR] (Log4J2PropertiesConf:12) - This is an error message
+2019-01-13 20:55:36,683 [FATAL] (Log4J2PropertiesConf:13) - This is a fatal message
+2019-01-13 20:55:36,683 [FATAL] (Log4J2PropertiesConf:13) - This is a fatal message
+2019-01-13 23:10:33,636 [ERROR] (Log4J2PropertiesConf:12) - This is an error message
+2019-01-13 23:10:33,641 [FATAL] (Log4J2PropertiesConf:13) - This is a fatal message
+2019-01-13 23:11:45,333 [DEBUG] (Log4J2PropertiesConf:9) - This is a debug message
+2019-01-13 23:11:45,339 [ INFO] (Log4J2PropertiesConf:10) - This is an info message
+2019-01-13 23:11:45,339 [ WARN] (Log4J2PropertiesConf:11) - This is a warn message
+2019-01-13 23:11:45,339 [ERROR] (Log4J2PropertiesConf:12) - This is an error message
+2019-01-13 23:11:45,339 [FATAL] (Log4J2PropertiesConf:13) - This is a fatal message

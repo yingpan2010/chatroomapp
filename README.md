@@ -26,10 +26,13 @@ localhost:8080/chatRoomTest.html
 * connect to database
 * finish the MVC structure, make the restful API
 * add cache, search chat content
-* convert spring style logger to springboot 
+* convert spring style logger to springboot
 * Offline message
 * @Someone
 * write edge cases
+
+## change list:
+* fixed logging: use log4j2 with spring boot
 * make the UI fancy
 * spring security to set authorization for different room
 * Javadoc
